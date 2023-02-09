@@ -5,10 +5,17 @@
 
 
 #banner{
-  background: linear-gradient(rgba(0,0,0,0.5), gold),url(gold-foil-splatter-with-white-frame-on-a-black-background-vector.jpg);
+  background: url(gold-foil-splatter-with-white-frame-on-a-black-background-vector.jpg);
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 100vh; 
   
 }
 
+
+.logo{
+  width: 140px;
+  position: absolute;
+  top: 4%;
+  left: 10%;
+}
