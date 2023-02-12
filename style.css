@@ -37,11 +37,11 @@
   font-style: italic;
 }
 
-.banner-btn {
+.banner-btn{
   margin: 70px auto 0;
 }
 
-.banner-btn a {
+.banner-btn a{
   width: 150px;
   text-decoration: none;
   display: inline-block;
@@ -51,18 +51,18 @@
   border: .5px solid #fff;
   position: relative;
   z-index: 1;
-  transition: 0.5s;
   transition: color 0.5s;
 }
 
 .banner-btn a span{
-  width: 50%;
+  width: 0;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   background: white;
   z-index: -1;
+  transition: 0.5s;
 }
 
 .banner-btn a:hover span{
