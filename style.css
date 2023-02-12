@@ -1,6 +1,7 @@
 *{ 
   margin: 0;
   padding: 0;
+  font-family: 'Kaushan Script', cursive;
 }
 
 
@@ -28,13 +29,11 @@
 
 .banner-text h1{
   font-size: 130px;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .banner-text p{
   font-size: 20px;
   font-style: italic;
 }
-.banner-text p{
-  font-size: 20px;
-  font-style: italic;
-}
+
