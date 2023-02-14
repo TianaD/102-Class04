@@ -46,6 +46,40 @@ button
   cursor: pointer;
 }
 
+.signup-btn
+{
+  background-color: #1c8adb;
+
+}
+
+.twitter-btn
+{
+  background-color: #21afde;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+hr{
+  margin-top: 20px;
+  width: 80%;
+}
+
+.or
+{
+  background: #fff;
+  width: 30px;
+  margin: -19px auto 10px;
+}
+
+img
+{
+  width: 70px;
+  margin-top: -50px;
+}
+
 #banner{
   background: url(./T&D\ Style\ Pantry\ Project\ Picture/BlackandGoldMarble-CrackedBackgroundImage.jpg);
   background-size: cover;
