@@ -8,6 +8,15 @@ body{
    background-image: url(./T&D\ Style\ Pantry\ Project\ Picture/BlackandGoldMarble-CrackedBackgroundImage.jpg);
 }
 
+.sign-up-form{
+  width: 300px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+
+}
+
 #banner{
   background: url(./T&D\ Style\ Pantry\ Project\ Picture/BlackandGoldMarble-CrackedBackgroundImage.jpg);
   background-size: cover;
