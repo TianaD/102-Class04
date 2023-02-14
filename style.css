@@ -33,6 +33,19 @@ body{
   outline: none;
 }
 
+button 
+{
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 #banner{
   background: url(./T&D\ Style\ Pantry\ Project\ Picture/BlackandGoldMarble-CrackedBackgroundImage.jpg);
   background-size: cover;
