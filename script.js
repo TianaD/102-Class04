@@ -34,3 +34,21 @@ function whodat() {
 //console.log(b);
 
 //if i add numbers and nothing else, I will get an NAN (not a number) error. i.e. running lesson = undefined + 2 vs running lesson(3) = 5
+
+
+//email validation
+// function emailValidation() {
+//     let email = document.getElementById("eField").value;
+
+//     if (email.includes('@') && email=().includes('.')) {
+//             //true
+    
+//     } else {
+//         //false
+//     }
+
+// }
+
+
+
+
