@@ -6,7 +6,7 @@ function showForm () {
     if (btnShowForm.style.display="hidden") {
 
 //display form
-        btnShowForm.style.display="visible"
+        btnShowForm.style.display="none"
       
     }
 
