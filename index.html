@@ -31,10 +31,10 @@
             <input type="email" class="input-box" placeholder="Your Email">
             <input type="password" class="input-box" placeholder="Your Password">
             <p><span><input type="checkbox"></span> I agree to the Terms of Service</p>
-            <button type="button" class="signup-btn">Sign up</button>
+            <button id="btn-" type="button" class="signup-btn">Sign up</button>
             <hr>
             <p class="or">OR</p>
-            <button type="button" class="twitter-btn">Login with Twitter</button>
+            <button id="btn-" type="button" class="twitter-btn">Login with Twitter</button>
             <p> Do you have an account? <a href="#"></a></p>
 
         </form>
@@ -57,20 +57,20 @@
     </div>
     
     <div class="container">
-        <button type="submit" class="popup-btn" onclick="openPopup()">Click Here</button>
+        <button id="btn-popup" type="submit" class="popup-btn" onclick="openPopup()">Click Here</button>
         <div class="popup" id="popup">
             <img src="./T&D Style Pantry Project Picture/GoldSparkleRainCircles.jpg">
             <h2>Thank You!</h2>
             <p>Come Again!</p>
-            <button type="button" onclick="closePopup()">Done</button>
+            <button id="btn-close-popup" type="button" onclick="closePopup()">Done</button>
         </div>
 
-        <button type="submit" class="popup-btn" onclick="openPopup()">Sign Up Today for Your Free Consultation</button>
-        <div class="popup" id="popup">
+        <button id="btn-show-form" class="popup-btn" onclick="showForm()">Sign Up Today for Your Free Consultation</button>
+        <div class="popup" id="signupform">
             <img src="./T&D Style Pantry Project Picture/GoldSparkleRainCircles.jpg">
             <h2>Thank You!</h2>
             <p>See You Then!</p>
-            <button type="button" onclick="closePopup()">Done</button>
+            <button id="btn-close-form" type="button" onclick="closeForm()">Done</button>
         </div>
 
 

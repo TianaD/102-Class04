@@ -1,9 +1,33 @@
 let a = 1;
 
+let btnShowForm = document.getElementById("btn-show-form");
+function showForm () {
+
+    if (btnShowForm.style.display="hidden") {
+
+//display form
+        btnShowForm.style.display="visible"
+      
+    }
+
+}
+
+let signupForm = document.getElementById("signupform");
+
+let btnCloseForm = document.getElementById("btn-close-form");
+
+
+
+
+
+
+
+
+
 
 //without a funciton, i can still access variables outside of it
 //for this function, we get the type of alfredo we get. there are less options
-function (){
+function test(){
     let b = 5;
     console.log (a);
     console.log (b);
