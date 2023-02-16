@@ -8,6 +8,8 @@ body{
    background-image: url(./T&D\ Style\ Pantry\ Project\ Picture/BlackandGoldMarble-CrackedBackgroundImage.jpg);
 }
 
+/* Beginning of "Sign Up Now" Form Code */
+
 .sign-up-form{
   width: 300px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
@@ -46,6 +48,7 @@ button
   cursor: pointer;
 }
 
+
 .signup-btn
 {
   background-color: #1c8adb;
@@ -80,15 +83,36 @@ img
   margin-top: -50px;
 }
 
-.btn-show-form
-{
-
-}
-
 .signupform
 {
-  
+  visibility: visible;
+  top: 95%;
+  transform: translate(-50%, -50%) scale(1);
+} 
+
+.signupform h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+
 }
+
+.signupform button{
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: green;
+  color: purple;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* End of "Sign Up Now" Form Code */
+
 
 #banner{
   background: url(./T&D\ Style\ Pantry\ Project\ Picture/BlackandGoldMarble-CrackedBackgroundImage.jpg);
@@ -210,12 +234,84 @@ img
   justify-content: center;
 }
 
-#popup{
+.popup{
+  width: 400px;
+  background: beige;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: grey;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+
+}
+
+.popup-btn{
+  padding: 10px 60px;
+  background: teal;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 30px;
+  
+}
+
+
+.open-popup{
+  visibility: visible;
+  top: 95%;
+  transform: translate(-50%, -50%) scale(1);
+} 
+
+.popup img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2{
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+
+}
+
+.popup button{
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: palevioletred;
+  color: paleturquoise;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* .pow
+{
+
+
+}
+
+.popup{
   width: 400px;
   background: white;
   border-radius: 6px;
   position: absolute;
-  top: 70%;
+  top: 0;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.1);
   text-align: center;
@@ -239,27 +335,21 @@ img
 }
 
 
-.open-popup{
+.open-Form{
   visibility: visible;
-  top: 50%;
+  top: 95%;
   transform: translate(-50%, -50%) scale(1);
-}
+} 
 
-.popup img{
-  width: 100px;
-  margin-top: -50px;
-  border-radius: 50%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
 
-.popup h2{
+.pow h2{
   font-size: 38px;
   font-weight: 500;
   margin: 30px 0 10px;
 
 }
 
-.popup button{
+.pow button{
   width: 100%;
   margin-top: 50px;
   padding: 10px 0;
@@ -271,4 +361,11 @@ img
   border-radius: 4px;
   cursor: pointer;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+} */
+
+.openForm
+{
+  visibility: visible;
+  top: 95%;
+  transform: translate(-50%, -50%) scale(1);
 }

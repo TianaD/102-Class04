@@ -1,23 +1,42 @@
-let a = 1;
+// let a = 1;
 
-let btnShowForm = document.getElementById("btn-show-form");
-    function showForm () {
+// let btnShowForm = document.getElementById("btn-show-form");
+//     function showForm () {
 
-    if (btnShowForm.style.display="hidden") {
+//     if (btnShowForm.style.display="hidden") {
 
-//display form
-        btnShowForm.style.display="none"
+// //display form
+//         btnShowForm.style.display="none"
       
-    }
+//     }
 
+// }
+
+// let signupForm = document.getElementById("signupform");
+
+// let btnCloseForm = document.getElementById("btn-close-form");
+
+
+
+//Sign Up Now Button
+let container2 = document.getElementById("pow");
+
+function openForm(){
+    container2.classList.add("open-Form");
 }
 
-let signupForm = document.getElementById("signupform");
-
-let btnCloseForm = document.getElementById("btn-close-form");
 
 
 
+// Click Here Button
+    let popup = document.getElementById("boom");
+
+    function openPopup(){
+        popup.classList.add("open-popup");
+    }
+    function closePopup(){
+        popup.classList.remove("open-popup");
+    }
 
 
 
