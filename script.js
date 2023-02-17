@@ -19,11 +19,11 @@
 
 
 //Sign Up Now Button
-let container2 = document.getElementById("pow");
+// let container2 = document.getElementById("pow");
 
-function openForm(){
-    container2.classList.add("open-Form");
-}
+// function openForm(){
+//     container2.classList.add("open-Form");
+// }
 
 
 
