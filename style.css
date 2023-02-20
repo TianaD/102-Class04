@@ -1,7 +1,8 @@
 *{ 
   margin: 0;
   padding: 0;
-  font-family: 'Kaushan Script', cursive;
+  /* font-family: 'Kaushan Script', cursive; */
+  box-sizing: border-box;
 }
 
 body{
@@ -139,7 +140,7 @@ img
 
 .banner-text h1{
   font-size: 130px;
-  font-family: 'Titillium Web', sans-serif;
+  /* font-family: 'Titillium Web', sans-serif; */
 }
 
 .banner-text p{
@@ -162,6 +163,7 @@ img
   position: relative;
   z-index: 1;
   transition: color 0.5s;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .banner-btn a span{
@@ -190,6 +192,7 @@ img
   text-align: center;
   color: white;
   padding-top: 180;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .tab-links a{
@@ -306,5 +309,42 @@ img
   transform: translate(-50%, -50%) scale(1);
 } */
 
+.form{
+  max-width: 430px;
+  width: 100%;
+  padding: 50px;
+  border-radius: 60px;
+  background-color: white;
+}
+
+header{
+  font-size: 26px;
+  font-weight: 600;
+  color: rgb(51, 50, 50);
+  text-align: center;
+}
+
+form{
+  margin-top: 30px;
+}
 
 
+.field{
+  height: 45px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.field input,
+.field button{
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.field input{
+  padding: 0 15px;
+  border: 1px solid #cacaca;
+}
